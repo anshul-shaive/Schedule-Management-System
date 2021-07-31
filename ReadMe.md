@@ -13,15 +13,14 @@ Schedule Management System
  - ##### Schedule Meeting:
 
    - Send a POST request to the route <b>/schedule_meet</b> with JSON data in body (In Postman select Body -> raw -> select JSON)
-<br/>
-   Example: <br/>
-   `{
-    "RoomID":"R1",
-    "Date":"31 July 2021",
-    "StartTime":"2:30",
-    "EndTime":"4:00",
-    "Participants":"['Jim','Dwight']"
-}`
+     Example: <br/>
+     `{
+      "RoomID":"R1",
+      "Date":"31 July 2021",
+      "StartTime":"2:30",
+      "EndTime":"4:00",
+      "Participants":"['Jim','Dwight']"
+     }`
  
    - Participants field is optional. Participants can also be added after meeting is scheduled.
    - Time should be in a 24 hours HH:MM format.
